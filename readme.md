@@ -1,6 +1,8 @@
 ## TL;DR
 Using SP500 data (2005-2025) we tried to calculate the Hurst exponential amongst other data to train a ML model (random forest) to see if we can find some alpha. We ran some feature importance and ablation tests to see what data was working for the model and after that we did some backtesting on non trained data (2025-today).
 
+![](docs/pipe.jpg)
+
 ## 1. Data Retrieval (`data_pipeline.py`)
 
 This part is where we fetch market data and transform it into a clean dataset ready for ML.
