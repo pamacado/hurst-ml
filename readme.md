@@ -130,6 +130,8 @@ Days in Cash               : 87 out of 249 days
 ----------------------------------------
 ```
 
+![](docs/chart.png)
+
 ## Conclusions
 
 It was a fun experiment learning about Hurst's exponent and fractional brownian motion and how it is applied. The feature importance and ablation studies show contradicting results for Hurst, but it might be because of the high correlation with momentum.
